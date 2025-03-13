@@ -1,5 +1,5 @@
 const displayText400 = () => {
-    const courses = document.querySelectorAll(".400level");
+    const courses = document.querySelectorAll(".level400");
     courses.forEach(course => {
         console.log(course.textContent);
     });
